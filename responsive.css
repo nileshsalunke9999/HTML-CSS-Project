@@ -1,0 +1,284 @@
+@media (max-width: 600px) {
+  /* -------------------------------- Header -------------------------------- */
+
+  header {
+    height: 8vh;
+  }
+  nav {
+    padding: 0 2vw;
+  }
+  nav #logo {
+    height: 100%;
+    width: 35%;
+  }
+
+  nav #logo p {
+    font-size: 7vw;
+  }
+  nav #logo p::before {
+    display: none;
+  }
+  nav #logo p::after {
+    display: none;
+  }
+  nav ul {
+    height: 100%;
+    width: 10%;
+  }
+
+  nav ul li {
+    display: none;
+  }
+  nav ul span > i {
+    font-size: 5vw;
+    display: initial;
+  }
+
+  /* -------------------------------- Section 1 -------------------------------- */
+  #section1 {
+    height: 50vh;
+  }
+  #overlay {
+    width: 100%;
+    height: 45%;
+  }
+  .overlay-flex {
+    width: 100%;
+    height: 50%;
+  }
+  #overlay1 #left {
+    font-size: 6vw;
+    font-weight: 100;
+    letter-spacing: 1px;
+  }
+  #overlay1 #right {
+    width: 45px;
+    height: 45px;
+  }
+
+  #overlay2 #left {
+    font-size: 4.5vw;
+    letter-spacing: 2px;
+  }
+  #overlay2 #right img {
+    width: 35px;
+  }
+
+  /* -------------------------------- Section 2 -------------------------------- */
+  #section2 {
+    width: 100%;
+    height: 38vh;
+  }
+  #top {
+    padding-top: 30px;
+    width: 100%;
+    height: 64%;
+  }
+  #img-container {
+    padding: 1vw 0;
+    width: 200%;
+  }
+  #img-container img {
+    width: 13%;
+    height: 90%;
+  }
+  #bottom {
+    height: 20%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+
+  #bottom ul li {
+    font-size: 2vw;
+    font-weight: 400;
+    width: fit-content;
+    height: fit-content;
+    margin-right: 4px;
+    transition: all;
+  }
+  #bottom ul li:hover {
+    border: none !important;
+  }
+  #bottom ul h2 {
+    height: 5vw;
+    font-size: 3.5vw;
+    margin-right: 10px;
+    border-bottom: 1px solid black;
+  }
+
+  /* -------------------------------- Section 3 -------------------------------- */
+
+  #section3 {
+    height: 50vh;
+  }
+  #section3 #left #txt {
+    font-size: 3vw;
+    font-weight: 500;
+    padding-top: 3vw;
+  }
+
+  #section3 #right #txt #left-box {
+    font-size: 8px;
+    font-weight: 400;
+  }
+  #section3 #right #txt #right-box {
+    font-size: 8px;
+    font-weight: 400;
+  }
+
+  /* -------------------------------- section 4-------------------------------- */
+  #section4 {
+    height: 10vh;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+  }
+  #section4 #scroller {
+    padding: 5vw 0;
+  }
+  #section4 #scroller h3 {
+    display: inline-block;
+    font-size: 5vw;
+    letter-spacing: 2px;
+    margin-right: 12px;
+    text-transform: uppercase;
+    font-family: monument;
+    -webkit-text-stroke: 1px black;
+  }
+
+  /* -------------------------------- Section 5-------------------------------- */
+
+  #section5 {
+    /* border: 1px solid red; */
+    height: 50vh;
+  }
+  #section5 > h1 {
+    padding: 3vw 0 3vw 0;
+    width: 100%;
+    font-size: 5vw;
+  }
+
+  #section5 #element {
+    padding: 3vw 3vw;
+    border-top: 1px solid rgb(11, 11, 11);
+  }
+  #section5 #element img {
+    left: 24%;
+    width: 8vw;
+    height: 8vw;
+  }
+  #section5 #element:hover img {
+    left: 30%;
+  }
+
+  #section5 #element:last-child {
+    border-bottom: 1px solid rgb(11, 11, 11);
+  }
+  #section5 #element #elem-left-part {
+    width: 20%;
+    font-size: 3.2vw;
+  }
+  #section5 #element #elem-right-part {
+    width: 60%;
+  }
+  #section5 #element #elem-right-part > h4 {
+    font-size: 4.3vw;
+    font-weight: 600;
+  }
+  #section5 #element #elem-right-part > h5 {
+    font-size: 1.3vw;
+    font-weight: 500;
+  }
+  /* Footer */
+  footer {
+    height: 6vh;
+    padding-bottom: 10px;
+    font-size: 12px;
+  }
+  footer span {
+    font-size: 20px;
+    margin-right: 5px;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 500px) {
+  /* -------------------------------- Header -------------------------------- */
+  nav #logo {
+    width: 34%;
+  }
+
+  /* -------------------------------- Section 1 -------------------------------- */
+
+  #overlay {
+    height: 40%;
+  }
+  .overlay-flex {
+    width: 100%;
+    margin-top: 15px;
+  }
+  #overlay1 #left {
+    font-size: 7vw;
+    font-weight: 500;
+  }
+  #overlay2 #left {
+    font-size: 5vw;
+  }
+
+  /* -------------------------------- Section 2 -------------------------------- */
+  #section2 {
+    /* border: 2px solid red; */
+    height: 30vh;
+  }
+  #img-container {
+    padding: 2vw 0;
+    width: 150%;
+  }
+  #img-container img {
+    width: 12.3%;
+    height: 75%;
+  }
+  #bottom {
+    height: 18%;
+  }
+
+  /* -------------------------------- Section 3 -------------------------------- */
+
+  #section3 {
+    height: 48vh;
+  }
+  #section3 #left #txt {
+    font-size: 4vw;
+    font-weight: 500;
+    padding-top: 2vw;
+  }
+
+  #section3 #right #txt #left-box {
+    font-size: 8px;
+    font-weight: 400;
+  }
+  #section3 #right #txt #right-box {
+    font-size: 8px;
+    font-weight: 400;
+  }
+
+  /* -------------------------------- section 4-------------------------------- */
+
+  #section4 #scroller {
+    padding: 5vw 0;
+  }
+  #section4 #scroller h3 {
+    display: inline-block;
+    font-size: 7vw;
+    letter-spacing: 2px;
+    margin-right: 12px;
+    text-transform: uppercase;
+    font-family: monument;
+    -webkit-text-stroke: 1px black;
+  }
+
+  /* -------------------------------- Section 5-------------------------------- */
+
+  #section5 {
+    height: 40vh;
+  }
+}
